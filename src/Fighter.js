@@ -6,6 +6,9 @@ export default class Fighter {
     this.strength = strength;
     this.dexterity = dexterity;
     this.life = MAX_LIFE;
+    //ou avec un getter
+    //this.life=Fighter.MAW_LIFE
+    //static MAX_LIFE(){return MAX_LIFE}
   }
   fight(enemy) {
     let attack = parseInt(Math.random() * (this.strength - 1) + 1);

@@ -11,7 +11,7 @@ fighters.push(Nemean);
 let firstAttack = Math.floor(Math.random() * 2);
 round.attack = firstAttack;
 do {
-  console.log(JSON.stringify(round));
+  //console.log(JSON.stringify(round));
   switch (round.attack) {
     case 1:
       fighters[0].fight(fighters[1]);
